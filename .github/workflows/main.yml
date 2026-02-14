@@ -3,7 +3,7 @@ name: Check TMDB IP
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 10,22 * * *'  # 每天 10:00 和 22:00 执行
+    - cron: '0 10,19 * * *'  # 每天 10:00（18） 和 19:00（3） 执行
 
 permissions:
   contents: write  # 确保有写入权限
